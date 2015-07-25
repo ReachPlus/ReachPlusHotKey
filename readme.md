@@ -2,6 +2,7 @@ ReachPlus Alerts Hot key
 ---------------
 This code sample lets user to select the hot key to send alerts in quick manner using ReachPlus Alerts SDK. When this application is minimized, its icon stays in the system tray.
 ![Setup hot key](screenshot.png)
+
 You may need to update the configurations parameters like user name,  password and others in *ServerMonitor.exe.config*. 
 
 **url** : This is URL of ReachPlus Server SDK
