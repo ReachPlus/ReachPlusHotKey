@@ -1,6 +1,6 @@
 ReachPlus Alerts Hot key
 ---------------
-This code sample allows users to select hot keys to send alerts quickly using the ReachPlus Alerts SDK. When this application is minimized, its icon will still be displayed in the system tray.
+This code sample allows users to select hot keys to send alerts quickly using the ReachPlus Alerts SDK. When this application is minimized, its icon will still be displayed in the system tray. ReachPlus Alerts server 5.6.0(releasing soon) is required for this samle to work.
 ![Setup hot key](screenshot.png)
 
 You may need to update the configuration parameters such as the username and password in *ServerMonitor.exe.config*. 
@@ -20,11 +20,11 @@ You may need to update the configuration parameters such as the username and pas
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
-        <add key="url" value="http://192.168.5.168:8080/rpas-webservices/jobs"/>
+        <add key="url" value="http://192.168.5.166:47665/jobs"/>
         <add key="user" value="admin"/>
         <add key="password" value="alerts"/>
         <add key="alertfile" value="samplealert.xml"/>
-        <add key="serveraddress" value="192.168.5.183"/>
+        <add key="serveraddress" value="192.168.5.166"/>
       </appSettings>
     </configuration>
 ```
